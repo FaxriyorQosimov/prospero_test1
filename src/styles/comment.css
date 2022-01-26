@@ -1,0 +1,227 @@
+.comment {width: 100%;padding-top: 30px;}
+.comment_wrapper {
+    width: 70%;
+    margin-left: 10%;
+}
+.comment_header {
+    display: flex;justify-content: space-between;align-items: center;
+    width: 100%;
+    padding-bottom: 30px;
+}
+.comment_header > figcaption {
+    display: flex;align-items: center;
+}
+.add_comment {
+    display: flex;
+    justify-content: space-between;align-items: center;
+    width: 160px;
+    border-radius: 20px;
+    padding: 8px 15px;
+    border: 1px solid #D9DADB;
+    cursor: pointer;
+}
+.add_comment > article {
+    font-size: 14px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    /* Base/Grey-100 */
+    color: #262D33;
+}
+.comment_19 h1 {
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 50px;
+    color: #262D33;
+}
+.comment_19 > article {
+    font-weight: 100;
+    font-size: 40px;
+    line-height: 50px;
+    text-transform: uppercase;
+    color: #939699;
+}
+.comment_body {
+    width: 100%;
+}
+.comment_body_card{
+    display: flex;
+    padding: 20px 0;
+    border-top: 1px solid #D9DADB;
+    padding-bottom: 30px;
+}
+.comment_body_card_right {
+    padding-left: 10px;
+}
+.comment_body_card_right_header {
+    display: flex;align-items:baseline;
+}
+.comment_body_card_right_header > figcaption {
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 25px;
+    color: #262D33;
+}
+.comment_body_card_right_header > article {
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+    color: #939699;
+}
+.comment_body_card_right_body > p {
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 30px;
+    color: #4B5157;
+    padding: 6px 0;
+    width: 80%;
+}
+.comment_body_card_right_footer {
+    display: flex;align-items: center;
+}
+.comment_body_card_right_footer > figcaption {
+    font-size: 12px;
+    line-height: 15px;
+    color: #262D33;
+}
+.comment_body_card_right_footer > figcaption,
+.comment_body_card_right_footer > img {
+    cursor: pointer;
+}
+
+.comment_footer {
+    width: 100%;
+}
+.comment_footer > article {
+    border: 1px solid #D9DADB;
+    border-radius: 25px; 
+    cursor: pointer;
+    padding: 12px 12px;
+    display: flex;justify-content: center;  
+}
+.comment_footer > article > span {
+    font-size: 14px;
+    line-height: 20px;
+    color: #262D33;
+}
+.footer_card {
+    width: 100%;
+    border-radius: 10px;
+    background: #f5f5f5;
+    padding: 30px;
+    margin-top: 60px;
+    display: flex;align-items: center;
+}
+.footer_card_right {
+    width: 90%;
+}
+.footer_card_right > article {
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 25px;
+    color: #262D33;
+}
+.footer_card_right_comment_input {
+    width: 100%;
+    border: 1px solid #f5f5f5;
+    border-radius: 10px;
+    position: relative;
+    height: 100px;
+    background: #fff;
+    margin-left: 15px;
+    z-index: 10;
+}
+.footer_card_right_comment_input_child {
+    position: absolute;
+    top: 30px;left: -10px;
+    transform: rotateZ(45deg);
+    border: 1px solid #f5f5f5;
+    border-top: none;
+    border-right: none;
+    width: 20px;height: 20px;
+    background: #fff;
+    z-index: 0;
+}
+.submit_btn {
+    margin-left: 15px;
+    margin-top: 20px;
+    border-radius: 20px;
+    background: #4592FF;
+    border: none;
+    padding: 6px 12px;
+    cursor: pointer;
+    color: #fff;
+}
+.anderson{width: 75px;height: 75px;}
+
+@media screen and (min-width: 300px) and (max-width: 700px) {
+    .comment_19 h1, .comment_19 > article {
+        font-size: 14px;
+    }
+    .comment_wrapper {
+        width: 100%;
+        margin-left: 0;
+    }
+    .add_comment {
+        padding: 4px 14px;
+        width: 130px;
+    }
+    .add_comment > article{
+        font-size: 12px;
+    }
+    .comment_header {
+        padding-bottom: 15px;
+    }
+    .comment_body_card_right_body > p {
+        width: 100%;
+        font-size: 10px;
+        line-height: 12px;
+    }
+    .comment_body_card_right_header > figcaption{
+        font-size: 12px;
+    }
+    .comment_body_card_right_header > article {
+        font-size: 10px;
+    }
+    .comment_body_card_right_footer {
+        font-size: 10px;
+    }
+    .comment_body_card_right_footer > figcaption{
+        font-size: 10px;
+    }
+    .comment_body_card {
+        padding-bottom: 20px;
+    }
+    .comment_footer > article {
+        padding: 5px;
+        width: 150px;
+    }
+    .comment_footer > article > img  {
+        width: 20px;
+    }
+    .footer_card {
+        padding: 10px;
+    }
+    .footer_card_right_comment_input {
+        width: 90%;
+    }
+    .footer_card_right > article {
+        font-size: 14px;
+    }
+    .submit_btn {
+        margin-top: 10px;
+    }
+    .subscribe button{
+        margin-left: 0;
+    }
+    .subscribe input {
+        width: 200px;
+    }
+}
+
+@media screen and (min-width: 699px) and (max-width: 1150px) {
+    .comment_wrapper {
+        width: 100%;
+        margin-left: 0;
+    }
+}
